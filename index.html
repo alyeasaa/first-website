@@ -1,1 +1,119 @@
-<h1>My Website</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Justice Library</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f4;
+      color: #252525;
+      line-height: 1.6;
+    }
+    header {
+      background: #243b35;
+      color: white;
+      padding: 35px 8%;
+    }
+    header p { color: #dce6df; }
+    nav {
+      background: white;
+      padding: 14px 8%;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      color: #243b35;
+      text-decoration: none;
+      margin-right: 22px;
+      font-weight: bold;
+    }
+    main {
+      max-width: 1000px;
+      margin: 35px auto;
+      padding: 0 22px;
+    }
+    .intro { margin-bottom: 35px; }
+    .resources {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      border: 1px solid #e2e2dc;
+      border-radius: 10px;
+    }
+    .card h3 { color: #243b35; margin-top: 0; }
+    .card a { color: #356b56; font-weight: bold; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p>AN EDUCATIONAL RESOURCE LIBRARY</p>
+    <h1>The Justice Library</h1>
+    <p>Explore civil rights, understand discrimination,
+    and discover resources that help explain our world.</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#resources">Explore Resources</a>
+  </nav>
+  <main>
+    <section class="intro" id="about">
+      <h2>Knowledge is a starting point.</h2>
+      <p>
+        This library brings together educational resources for students
+        interested in racial discrimination and civil rights.
+        Explore historical events, landmark legal decisions, and research
+        from trusted organizations.
+      </p>
+    </section>
+    <section id="resources">
+      <h2>Explore the Library</h2>
+      <div class="resources">
+        <article class="card">
+          <h3>Civil Rights History</h3>
+          <p>Learn about the history of civil rights and the people
+          who worked to challenge racial discrimination.</p>
+          <a href="https://nmaahc.si.edu/explore" target="_blank"
+          rel="noopener noreferrer">Explore the Smithsonian →</a>
+        </article>
+        <article class="card">
+          <h3>Landmark Court Cases</h3>
+          <p>Discover important Supreme Court decisions and how
+          they shaped civil rights in the United States.</p>
+          <a href="https://www.oyez.org/" target="_blank"
+          rel="noopener noreferrer">Explore Supreme Court cases →</a>
+        </article>
+        <article class="card">
+          <h3>Research and Data</h3>
+          <p>Find research and educational material about racial
+          inequality, discrimination, and American society.</p>
+          <a href="https://www.pewresearch.org/" target="_blank"
+          rel="noopener noreferrer">Explore Pew Research →</a>
+        </article>
+        <article class="card">
+          <h3>Know Your Rights</h3>
+          <p>Explore official information about civil rights
+          protections and discrimination.</p>
+          <a href="https://www.justice.gov/crt" target="_blank"
+          rel="noopener noreferrer">Visit the Civil Rights Division →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>The Justice Library · An independent student project</p>
+  </footer>
+</body>
+</html>
